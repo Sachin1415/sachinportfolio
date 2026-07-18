@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1784369909440,
+    "firstName": "Test",
+    "lastName": "User",
+    "email": "test@example.com",
+    "message": "Hello",
+    "permission": true,
+    "submittedAt": "2026-07-18T10:18:29.440Z"
+  },
+  {
+    "id": 1784369975040,
+    "firstName": "Sachin",
+    "lastName": "Sachin",
+    "email": "sachinblaster1415@gmail.com",
+    "message": "tftrxghjvhg",
+    "permission": true,
+    "submittedAt": "2026-07-18T10:19:35.040Z"
+  }
+]
