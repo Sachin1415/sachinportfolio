@@ -1,25 +1,25 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { blackbox, fca, gogo, gss, jayam, logoOriginal, mafia, marineTourism, netajiSchool, pdm, primaryLogo, relux, sah, slam, southpoint, yuvin } from 'src/data/images';
+import { images } from '../data/images';
 
 const StripLine = () => {
   const logos = [
-    { name: 'GSS CarMakeOvers Semmbakkam', image: gss },
-    { name: 'Vishaka Constructions', image: vishaka },
-    { name: 'The Detailing MafiaTambaram', image: tdm },
-    { name: 'Relux Electric', image: relux },
-    { name: 'Sai Ashwini Homes', image: sah },
-    { name: 'SLAM Madambakkam', image: slam },
-    { name: 'FCA Sembakkam', image: fca },
-    { name: 'Jayam Insurance', image: jayam },
-    { name: 'Netaji Vidhyalayam', image: nethaji },
-    { name: 'Southpoint Realtors', image: southpoint },
-    { name: 'Arun Marine Tourism', image: arunmarine },
-    { name: 'PriyadharshiniMobiles', image: pdm },
-    { name: 'Sujes Bakes', image: sujes },
-    { name: 'BLACK BOXES', image: blackbox },
-    { name: 'YUVIN Interiors ', image: yuvin },
-    { name: 'GOGOCampign', image: gogo }
+    { name: 'GSS CarMakeOvers Semmbakkam', image: images.gss },
+    { name: 'Vishaka Constructions', image: images.vishaka },
+    { name: 'The Detailing MafiaTambaram', image: images.tdm },
+    { name: 'Relux Electric', image: images.relux },
+    { name: 'Sai Ashwini Homes', image: images.sah },
+    { name: 'SLAM Madambakkam', image: images.slam },
+    { name: 'FCA Sembakkam', image: images.fca },
+    { name: 'Jayam Insurance', image: images.jayam },
+    { name: 'Netaji Vidhyalayam', image: images.nethaji },
+    { name: 'Southpoint Realtors', image: images.southpoint },
+    { name: 'Arun Marine Tourism', image: images.arunmarine },
+    { name: 'PriyadharshiniMobiles', image: images.pdm },
+    { name: 'Sujes Bakes', image: images.sujes },
+    { name: 'BLACK BOXES', image: images.blackbox },
+    { name: 'YUVIN Interiors ', image: images.yuvin },
+    { name: 'GOGOCampign', image: images.gogo }
   ];
 
   return (
@@ -66,7 +66,7 @@ const StripLine = () => {
               >
                 <div className="w-40 h-40 flex flex-col items-center justify-center bg-white/5 border border-white/10 rounded-2xl px-6 py-4 backdrop-blur-sm hover:border-red-500/50 hover:bg-red-500/10 transition-all duration-300 cursor-pointer shadow-lg relative overflow-hidden">
                   <img
-                    src={`/src/assets/logos/${logo.image}`}
+                    src={logo.image}
                     alt={logo.name}
                     className="h-24 w-24 object-contain group-hover:brightness-125 transition-all duration-300 opacity-90 group-hover:opacity-100"
                   />
@@ -103,7 +103,7 @@ const StripLine = () => {
               >
                 <div className="w-40 h-40 flex flex-col items-center justify-center bg-white/5 border border-white/10 rounded-2xl px-6 py-4 backdrop-blur-sm hover:border-red-500/50 hover:bg-red-500/10 transition-all duration-300 cursor-pointer shadow-lg relative overflow-hidden">
                   <img
-                    src={`/src/assets/logos/${logo.image}`}
+                    src={logo.image}
                     alt={logo.name}
                     className="h-24 w-24 object-contain group-hover:brightness-125 transition-all duration-300 opacity-90 group-hover:opacity-100"
                   />
