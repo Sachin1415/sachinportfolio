@@ -1,26 +1,25 @@
 import React from 'react';
 import { motion } from 'framer-motion';
+import { blackbox, fca, gogo, gss, jayam, logoOriginal, mafia, marineTourism, netajiSchool, pdm, primaryLogo, relux, sah, slam, southpoint, yuvin } from 'src/data/images';
 
 const StripLine = () => {
   const logos = [
-    { name: 'GSS CarMakeOvers Semmbakkam', image: 'gss logo insta.jpg.jpeg' },
-    { name: 'Vishaka Constructions', image: 'logo original.png' },
-    { name: 'The Detailing MafiaTambaram', image: 'mafia logo.png' },
-    
-    { name: 'Relux Electric', image: 'Relux logo0.png' },
-    { name: 'Sai Ashwini Homes', image: 'SAH LOGO.png' },
-    { name: 'SLAM Madambakkam', image: 'SLAM LOGO PNG.png' },
-   
-    { name: 'FCA Sembakkam', image: 'FCA LOGO new version.png' },
-    { name: 'Jayam Insurance', image: 'JAYAM f1.png' },
-    { name: 'Netaji Vidhyalayam', image: 'Netaji School_logo.png' },
-    { name: 'Southpoint Realtors', image: 'southpoint logo (secondary)-02.jpg.jpeg' },
-    { name: 'Arun Marine Tourism', image: 'Marine tourism logo_01.png' },
-    { name: 'PriyadharshiniMobiles', image: 'PDM logo 2.png' },
-    { name: 'Sujes Bakes', image: 'Primary Logo PNG - Transparent.png' },
-    { name: 'BLACK BOXES', image: 'BLACK BOXES.png' },
-    { name: 'YUVIN Interiors ', image: 'YUVIN edited.png' },
-    { name: 'GOGOCampign', image: 'gogo edited.png' }
+    { name: 'GSS CarMakeOvers Semmbakkam', image: gss },
+    { name: 'Vishaka Constructions', image: vishaka },
+    { name: 'The Detailing MafiaTambaram', image: tdm },
+    { name: 'Relux Electric', image: relux },
+    { name: 'Sai Ashwini Homes', image: sah },
+    { name: 'SLAM Madambakkam', image: slam },
+    { name: 'FCA Sembakkam', image: fca },
+    { name: 'Jayam Insurance', image: jayam },
+    { name: 'Netaji Vidhyalayam', image: nethaji },
+    { name: 'Southpoint Realtors', image: southpoint },
+    { name: 'Arun Marine Tourism', image: arunmarine },
+    { name: 'PriyadharshiniMobiles', image: pdm },
+    { name: 'Sujes Bakes', image: sujes },
+    { name: 'BLACK BOXES', image: blackbox },
+    { name: 'YUVIN Interiors ', image: yuvin },
+    { name: 'GOGOCampign', image: gogo }
   ];
 
   return (
